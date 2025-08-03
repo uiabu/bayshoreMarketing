@@ -12,7 +12,7 @@ const Footer = () => {
           FACEBOOK Inc. YOUTUBE is a trademark of GOOGLE Inc.
         </p>
         <p className="mb-6 text-base ">
-          Imperium Acquisition is a marketing and sales education and training
+          Bayshore Communication is a marketing and sales education and training
           company. We do not sell a business opportunity, “get rich quick”
           program or money-making system. We believe, with education,
           individuals can be better prepared to make investment decisions, but

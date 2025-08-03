@@ -45,7 +45,7 @@ const ThankYou: React.FC = () => {
         {/* Video Section Header */}
         <div className="text-center mb-6">
           <h2 className="text-2xl font-semibold text-[#FE641A] mb-2">
-            Please Watch Short Vid Below To Confirm Your Appointment 👇
+            Please Watch Short Video Below To Confirm Your Appointment 👇
           </h2>
         </div>
 
@@ -131,7 +131,9 @@ const ThankYou: React.FC = () => {
 
           {/* Attribution */}
           <div className="text-right mt-2">
-            <span className="text-xs text-gray-500">IMPERIUM ACQUISITION™</span>
+            <span className="text-xs text-gray-500">
+              Bayshore Communication
+            </span>
           </div>
         </div>
 
