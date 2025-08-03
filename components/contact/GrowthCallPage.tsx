@@ -25,7 +25,7 @@ export default function GrowthCallPage() {
             </h3>
             <div className="w-full max-w-4xl mx-auto aspect-video rounded-3xl overflow-hidden ">
               <iframe
-                src="https://www.youtube.com/embed/Zoyqx6B6v1o?si=8Dgos67WSxV-j6s-"
+                src="https://www.youtube.com/embed/pQD5jqtRjFI?si=VvKyAtlzdjLpXp9p"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
