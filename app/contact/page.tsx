@@ -1,6 +1,7 @@
 import ContactForm from "@/components/contact/ContactForm";
 import GrowthCallPage from "@/components/contact/GrowthCallPage";
 import Map from "@/components/contact/Map";
+import Footer from "@/components/home/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -31,6 +32,7 @@ const page = () => {
       </div>
 
       <GrowthCallPage />
+      <Footer />
     </div>
   );
 };
