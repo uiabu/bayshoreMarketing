@@ -11,8 +11,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="container">
-        <h2 className="bg-[#FE641A] py-4 text-center text-xl font-semibold text-white">
-          MARKETING AGENCY OWNERS ONLY
+        <h2 className="bg-[#FE641A] py-4 text-center text-xl font-semibold text-white uppercase">
+          ATTENTION : Law Firm Owners Only
         </h2>
       </div>
     </>

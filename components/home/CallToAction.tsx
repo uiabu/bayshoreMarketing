@@ -8,10 +8,16 @@ const CallToAction = () => {
       style={{ backgroundImage: "url('/images/cta-bg.jpg')" }}
     >
       <div className="container flex flex-col items-center justify-center mx-auto px-4 py-8">
-        <h4 className="text-white text-2xl  lg:text-3xl font-semibold text-center mb-6 max-w-5xl mx-auto">
-          From customization to communication, our project organizermakes
-          everything simpler—Get started today!
-        </h4>
+        <div className="text-center mb-5 max-w-5xl">
+          <h4 className="text-white text-2xl  lg:text-3xl font-semibold text-center mb-2 max-w-5xl mx-auto">
+            From Consultation to Case Signed — We Make It Simple
+          </h4>
+          <p>
+            Our dedicated project managers, legal marketing specialists, and
+            automation experts work as your extended team to ensure every lead
+            is handled quickly and professionally.
+          </p>
+        </div>
         <div className="text-center mt-4">
           <Link href="/contact">
             <button className="inline-block bg-[#241836] text-white px-8  py-3  text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105">

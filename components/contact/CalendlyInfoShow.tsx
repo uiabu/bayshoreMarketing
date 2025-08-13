@@ -1,7 +1,24 @@
 "use client";
 import { InlineWidget } from "react-calendly";
+import { useEffect } from "react";
 
 const CalendlyInfoShow = () => {
+  useEffect(() => {
+    // Listen for the "event scheduled" message from Calendly
+    const handleCalendlyEvent = (e: any) => {
+      if (e.data.event && e.data.event === "calendly.event_scheduled") {
+        window.location.href =
+          "https://bayshore-marketing.vercel.app/thank-you";
+      }
+    };
+
+    window.addEventListener("message", handleCalendlyEvent);
+
+    return () => {
+      window.removeEventListener("message", handleCalendlyEvent);
+    };
+  }, []);
+
   return (
     <div className="w-full">
       {/* Mobile View */}
@@ -10,7 +27,7 @@ const CalendlyInfoShow = () => {
           url="https://calendly.com/info-bayshorecommunication/meeting"
           styles={{
             height: "600px",
-            width: "100%", // Ensures full width on mobile
+            width: "100%",
           }}
           pageSettings={{
             backgroundColor: "ffffff",
@@ -28,7 +45,7 @@ const CalendlyInfoShow = () => {
           url="https://calendly.com/info-bayshorecommunication/meeting"
           styles={{
             height: "800px",
-            width: "100%", // Ensures full width on desktop
+            width: "100%",
           }}
           pageSettings={{
             backgroundColor: "ffffff",

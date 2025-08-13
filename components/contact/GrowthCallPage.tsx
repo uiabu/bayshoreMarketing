@@ -40,12 +40,10 @@ export default function GrowthCallPage() {
             </h3>
             <p className="text-gray-600 text-lg lg:text-xl font-medium">
               Your answers will remain completely confidential and are used to
-              prepare a strategy for you prior to the call.
+              prepare a tailored strategy for your firm before the call.
             </p>
             <p className="text-gray-600 text-lg lg:text-xl font-bold">
-              <i>
-                **If you can't see any open slots click 'See times next month**
-              </i>
+              If you can't see any open slots, click “See times next month.”
             </p>
           </div>{" "}
           {/* Calendar Section */}
@@ -65,9 +63,9 @@ export default function GrowthCallPage() {
                   Booking Appointments
                 </h3>
                 <p className="text-gray-600 text-base lg:text-lg">
-                  How To Get 300+ FREE Appointments In The First 90 Days Without
-                  Using Ads...Using A Little-Known Secret Absolutely No One But
-                  Our Clients Have Their Hands On
+                  How to generate 300+ qualified client inquiries in your first
+                  90 days without wasting money on unqualified leads using a
+                  proven strategy designed for law firms only.
                 </p>
               </div>
               <div className=" flex flex-col items-center justify-center text-center">
@@ -76,9 +74,9 @@ export default function GrowthCallPage() {
                   Client Delivery & Scaling
                 </h3>
                 <p className="text-gray-600 text-base lg:text-lg">
-                  How to build a service or product that will make your clients
-                  stick around for the longterm, by doing less & having more
-                  fun. Which will allow you to scale to 6, 7 or 8-figures
+                  How to create a client experience that keeps people referring
+                  you for years — while reducing your personal workload and
+                  freeing time for high-value cases.
                 </p>
               </div>
               <div className=" flex flex-col items-center justify-center text-center">
@@ -87,9 +85,10 @@ export default function GrowthCallPage() {
                   Sales Mastery
                 </h3>
                 <p className="text-gray-600 text-base lg:text-lg">
-                  How To Create A Plug and Play Sales System That Helps you
-                  Skyrocket Your Sales. This system has personally helped us
-                  close over 3000+ clients in less than 4 years.
+                  How to implement a simple, repeatable intake and sales process
+                  that turns consultations into signed retainers — the same
+                  system that has helped us deliver 3,000+ new client cases in
+                  under four years.
                 </p>
               </div>
             </div>

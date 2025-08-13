@@ -3,9 +3,8 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Bayshore Marketting",
-  description: "Bayshore Marketting",
+export const metadata = {
+  metadataBase: new URL("https://bayshore-marketing.vercel.app/"),
 };
 
 export default function RootLayout({

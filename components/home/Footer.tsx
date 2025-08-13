@@ -6,43 +6,25 @@ const Footer = () => {
       <div className="container ">
         <p className="mb-6 text-base">©2025 Bayshore Communication</p>
         <p className="mb-6 text-base ">
-          This website is not part of the YouTube, Google, or Facebook website;
-          Google Inc or Facebook Inc. Also, this website is NOT endorsed by
-          YouTube, Google or Facebook in any way. FACEBOOK is a trademark of
+          This website is not part of the YouTube, Google, or Facebook websites;
+          Google Inc. or Facebook Inc. Also, this website is NOT endorsed by
+          YouTube, Google, or Facebook in any way. FACEBOOK is a trademark of
           FACEBOOK Inc. YOUTUBE is a trademark of GOOGLE Inc.
         </p>
         <p className="mb-6 text-base ">
-          Bayshore Communication is a marketing and sales education and training
+          Bayshore Communication is a legal marketing and sales implementation
           company. We do not sell a business opportunity, “get rich quick”
-          program or money-making system. We believe, with education,
-          individuals can be better prepared to make investment decisions, but
-          we do not guarantee success in our training. We do not make earnings
-          claims, efforts claims, or claims that our training will make you any
-          money. All material is intellectual property and protected by
-          copyright. Any duplication, reproduction, or distribution is strictly
-          prohibited. Please see our Full Disclosure for important details.
+          program, or money-making system. We believe, with proper strategy and
+          execution, law firms can consistently attract high-quality cases — but
+          results vary based on effort, market, and competition.
         </p>
         <p className="mb-6 text-base ">
-          Statements and depictions are the opinions, findings, or experiences
-          of individuals who generally have purchased education and training.
-          Results vary, are not typical, and rely on individual effort, time,
-          and skill, as well as unknown conditions and other factors. We do not
-          measure earnings or financial performance. Instead, we track completed
-          transactions and satisfaction of services by voluntary surveys.
-          Results show that most Advanced Training clients who apply the
-          training. You should not, however, equate completed sales closing
-          transactions with financially successful transactions. Further, many
-          customers do not continue with the program, do not apply what they
-          learn, or do attempt to apply what they learn but nonetheless have
-          difficulty in making marketing and sales successful for them.
+          Statements and case results are based on actual law firm clients we’ve
+          worked with. We do not guarantee specific earnings or case numbers, as
+          every firm’s situation is unique. We measure success based on
+          completed client intakes, case value, and satisfaction rates.
         </p>
-        <p className="mb-6 text-base ">
-          We use cookies to help improve, promote and protect our services. By
-          continuing to use this site, you agree to our privacy policy and terms
-          of use. This site is not a part of Facebook website or Facebook, Inc.
-          This site is NOT endorsed by Facebook in any way. FACEBOOK is a
-          trademark of FACEBOOK, Inc.
-        </p>
+
         <div className="flex justify-center flex-wrap gap-4">
           <a href="#" className="text-[#FE641A] hover:underline text-base">
             Privacy Policy

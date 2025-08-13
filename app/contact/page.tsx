@@ -6,11 +6,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: " Bayshore Marketing",
+  description:
+    "Bayshore Marketing is a leading digital marketing agency specializing in helping businesses grow their online presence and achieve their marketing goals.",
+};
+
 const page = () => {
   return (
     <div>
       <div className="bg-black py-4 flex justify-center mb-5 lg:mb-10">
-        <div className="container flex gap-4 items-center justify-between">
+        <div className="container flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-between ">
           <Link href="/">
             <Image src="/images/logo.png" alt="Logo" width={230} height={50} />
           </Link>

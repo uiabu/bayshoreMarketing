@@ -14,16 +14,16 @@ const Header = () => {
         <div className="flex flex-col items-center text-center gap-6 w-full">
           <div className="flex flex-col items-center text-center gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight max-w-5xl px-4">
-              Learn How You Can Fill Your Pipeline With
+              Learn How to Fill Your Calendar With
               <span className="text-[#FE641A] font-bold px-2">
-                100+ Qualified Appointments
+                20–50+ High-Value Legal Clients
               </span>
-              Every Single Month.
-              <span className="text-[#FE641A] font-bold px-2">Guaranteed</span>
+              Every Single Month
+              <span className="text-[#FE641A] font-bold px-2">Guaranteed </span>
             </h1>
             <p className="text-lg sm:text-xl md:text-xl text-gray-600 max-w-3xl px-4 text-center">
-              If you're not a marketing agency! This training will not be
-              valuable for you.
+              If you’re not a law firm owner, this training will not be relevant
+              for you.
             </p>
             <div className="text-center mt-4">
               <button
@@ -54,7 +54,7 @@ const Header = () => {
               <Image
                 src="/images/ia.png"
                 alt="Image 1"
-                width={400}
+                width={300}
                 height={300}
               />
             </div>
@@ -66,9 +66,9 @@ const Header = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[#FE641A] text-4xl font-semibold">10,000+</h3>
+              <h3 className="text-[#FE641A] text-4xl font-semibold">$50M+</h3>
               <p className="text-gray-600 text-xl font-medium">
-                YouTube <br /> Subscribers
+                In Client-Generated <br /> Legal Fees
               </p>
             </div>
           </div>
