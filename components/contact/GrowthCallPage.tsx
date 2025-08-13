@@ -9,7 +9,7 @@ export default function GrowthCallPage() {
       <div>
         <div className="container flex flex-col items-center text-center gap-6  lg:gap-10">
           <div className="flex flex-col items-center text-center gap-6 mt-10">
-            <h1 className="text-3xl sm:text-4xl md:text-4xl font-medium leading-tight max-w-6xl px-4">
+            <h1 className="text-2xl  lg:text-4xl font-medium leading-tight max-w-6xl px-4">
               You're One Step Away From Learning How Your Can
               <span className="text-[#FE641A] font-bold px-2">
                 Fill Your Pipeline With 100+ Qualified Appointments Every Single

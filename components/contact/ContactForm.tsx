@@ -41,7 +41,7 @@ const ContactForm = () => {
             </div>
             <div>
               <p className="font-semibold">Number</p>
-              <p>+1 (509) 592-1745</p>
+              <p>(509) 592-1745</p>
             </div>
           </div>
           <div className="flex items-start gap-4">

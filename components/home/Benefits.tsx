@@ -1,13 +1,16 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Progress from "./Progress";
 import Link from "next/link";
+import ContactModal from "../common/ContactModal";
 
 const Benefits = () => {
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   return (
     <div className="bg-[#F4F4F4] py-16">
       <div className="container">
         <div className="flex flex-col items-center">
-          <h2 className="text-4xl sm:text-5xl md:text-5xl font-semibold text-center mb-4 max-w-3xl">
+          <h2 className="text-2xl lg:text-5xl font-semibold text-center mb-4 max-w-3xl">
             Why Top Law Firms Choose Bayshore Communication
           </h2>
 
@@ -21,7 +24,7 @@ const Benefits = () => {
         </div>
         <div className="grid items-start grid-cols-1 gap-16 mt-12 md:grid-cols-2">
           <div className="">
-            <h3 className="text-3xl font-semibold mb-4">
+            <h3 className="text-xl lg:text-3xl font-semibold mb-4">
               Benefits of Working With Us
             </h3>
 
@@ -44,12 +47,17 @@ const Benefits = () => {
             </p>
 
             <div className="text-start mt-4 lg:mt-8">
-              <Link href="/contact">
-                <button className="inline-block bg-[#FE641A] text-white px-8  py-3  text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
-                  Send Us a Proposal <span className="text-xl"> »</span>
-                </button>{" "}
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="inline-block bg-[#FE641A] text-white px-8  py-3  text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
+              >
+                Send Us a Proposal <span className="text-xl"> »</span>
+              </button>{" "}
             </div>
+            <ContactModal
+              isOpen={isModalOpen}
+              onClose={() => setIsModalOpen(false)}
+            />
           </div>
 
           <div className=" flex flex-col gap-8 lg:gap-12 md:pl-[5rem] sm:px-[15vw] md:px-0">

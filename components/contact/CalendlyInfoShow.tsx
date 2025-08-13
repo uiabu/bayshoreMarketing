@@ -26,7 +26,7 @@ const CalendlyInfoShow = () => {
         <InlineWidget
           url="https://calendly.com/info-bayshorecommunication/meeting"
           styles={{
-            height: "600px",
+            height: "950px",
             width: "100%",
           }}
           pageSettings={{
@@ -44,7 +44,7 @@ const CalendlyInfoShow = () => {
         <InlineWidget
           url="https://calendly.com/info-bayshorecommunication/meeting"
           styles={{
-            height: "800px",
+            height: "950px",
             width: "100%",
           }}
           pageSettings={{

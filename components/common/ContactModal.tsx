@@ -45,8 +45,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
           Enter Your information Below
         </h2>
         <p className="text-orange-600 text-sm text-center mb-6 leading-relaxed">
-          ***If You Do Not Own A Marketing Agency Business - Leave This Page
-          Now***
+          ***If You Do Not Own A Law Firm - Leave This Page Now***
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -77,7 +76,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="+1 (123) 456-7890"
+              placeholder="(123) 456-7890"
               className="w-full p-4 border border-gray-300 rounded-md text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
               required
             />

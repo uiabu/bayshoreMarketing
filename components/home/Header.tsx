@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center gap-6 w-full">
           <div className="flex flex-col items-center text-center gap-6">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight max-w-5xl px-4">
+            <h1 className="text-2xl  lg:text-5xl font-medium leading-tight max-w-5xl px-4 ">
               Learn How to Fill Your Calendar With
               <span className="text-[#FE641A] font-bold px-2">
                 20–50+ High-Value Legal Clients

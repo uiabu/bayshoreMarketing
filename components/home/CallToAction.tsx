@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import ContactModal from "../common/ContactModal";
 
 const CallToAction = () => {
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   return (
     <div
       className="min-h-fit py-10 bg-black text-white relative overflow-hidden bg-cover bg-center"
@@ -19,12 +22,17 @@ const CallToAction = () => {
           </p>
         </div>
         <div className="text-center mt-4">
-          <Link href="/contact">
-            <button className="inline-block bg-[#241836] text-white px-8  py-3  text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
-              Send Us a Proposal <span className="text-xl"> »</span>
-            </button>
-          </Link>
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="inline-block bg-[#241836] text-white px-8  py-3  text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
+          >
+            Send Us a Proposal <span className="text-xl"> »</span>
+          </button>
         </div>
+        <ContactModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
       </div>
     </div>
   );
